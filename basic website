@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      height: 45px;
+    }
+
+    header nav ul {
+      display: flex;
+      margin-left: 70%;
+      list-style: none;
+    }
+
+    header nav ul li {
+      padding-left: 10%;
+    }
+
+    header a {
+      text-decoration: none;
+      color: brown;
+    }
+
+    section {
+      height: 100vh;
+      border: 1px solid grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Container {
+      margin-top: 10%;
+      font-family: cursive;
+    }
+
+    .Container img {
+      justify-content: left;
+      height: 300px;
+      border-radius: 50%;
+    }
+
+    .Container h2 {
+      margin-top: 2%;
+      font-size: 3em;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    .Container p,
+    ul {
+      margin-top: 0%;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      line-height: 40px;
+      display: flex;
+      justify-content: center;
+      font-size: 10px;
+    }
+
+    #intro {
+      background-image: url("https://th.bing.com/th/id/OIP.CSThJ0qpV3XKsURD0iKZ0AHaEK?rs=1&pid=ImgDetMain");
+      filter: brightness(100%);
+      background-size: cover;
+      background-position: center;
+      -webkit-text-fill-color: white;
+    }
+
+    #about {
+      background-color: dimgray;
+    }
+
+    #contact {
+      background-color: black;
+      color: white;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <img
+          src="https://clipartix.com/wp-content/uploads/2016/05/Happy-clipart-2.png"
+          alt="image"
+        />
+        <div class="Container">
+          <h2><b>Welcome to my website!</b></h2>
+          <p>
+            This is my personal website, where I share my thoughts and
+            experiences.
+          </p>
+        </div>
+      </section>
+      <section id="about">
+        <div class="Container">
+          <h2>About me</h2>
+          <p>I am mohan venkat</p>
+          <img
+            src="https://cdn.glitch.global/af0fdc3c-3ce2-4666-b98f-3f0147268c4c/mohan%20venkat.jpg?v=1719672445243"
+            alt="my photo"
+          />
+        </div>
+        <ul>
+          <li><p>studing B-TECH first year</p></li>
+          <li><p>In VISHNNU INSTITUE OF TECHNOLOGY(bhimavaram)</p></li>
+          <li><p>my redg number : 23aPA1A0561</p></li>
+          <li><p>I'm very much interseted in doinng these WEDSITES</p></li>
+        </ul>
+        <div class="Container">
+          <h2>Get in touch</h2>
+          <p>
+            <b> my email :</b
+            ><a href="www.email.com">mohanvenkatdulapalli@gmail.com</a>
+          </p>
+          <p>phone : 9030669229</p>
+        </div>
+      </section>
+      <section id="contact">
+        <img
+          src="https://i.pinimg.com/originals/df/b6/29/dfb62980b0cfc8a55bd156c81afe1633.png"
+        />
+        <ul>
+          <h1>GIVE YOUR DETAILS</h1>
+          <label for="name">NAME : </label>
+          <input type="text" id="name" name="name" />
+
+          <label for="study">STUDYING:</label>
+          <input type="text" required />
+
+          <h4>
+            <b>contact number:</b>
+            <input type="number" id="number" number="number" required />
+          </h4>
+          <h4><b>email: </b> <input type="email" required /></h4>
+          <input type="submit" placeholder="required">
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>My Personal Website</p>
+    </footer>
+  </body>
+</html>
