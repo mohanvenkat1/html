@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vasu Dev Manikanta Sai Nadh- College Student</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header-container {
+      background-color: #483526;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 20px auto;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      background-color: rgba(98, 49, 23, 0.432);
+      justify-content: space-between;
+    }
+
+    .left-column {
+      width: 40%;
+      padding: 20px;
+      border-radius: 30px;
+      margin: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .right-column {
+      width: 40%;
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="profile-pic">
+          <img
+            src="https://cdn.glitch.global/f20d663e-2c18-4634-9cda-421792e1ecab/ANA01041.JPG?v=1721560043550"
+            alt="Sai Nadth Profile Picture"
+          />
+        </div>
+        <h1>Vasu Dev Manikanta Sai nadh</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left-column">
+          <section id="about">
+            <h2><u>About Me</u></h2>
+            <p>
+              Hello! I'm Vasu Dev Manikanta Sai Nadh, a 2nd year B.Tech student.
+              I'm passionate about learning new things, coding, and exploring
+              new technologies. In my free time, I try to learn new things .
+            </p>
+          </section>
+          <section id="skills">
+            <h2><u>Skills</u></h2>
+            <ul>
+              <li>Programming languages: C, C++, Java, Python</li>
+              <li>Operating Systems: Windows, Linux</li>
+            </ul>
+          </section>
+          <section id="achievements">
+            <h2><u>Achievements</u></h2>
+            <ul>
+              <li>Participated in hackathon conducted by VITB in [2023]</li>
+              <li>winner in a private coding texts</li>
+            </ul>
+          </section>
+          <section id="experience">
+            <h2><u>Experience</u></h2>
+            <ul>
+              <li>no experience at...</li>
+            </ul>
+          </section>
+        </div>
+        <div class="right-column">
+          <section id="academics">
+            <h2><u>Academics</u></h2>
+            <ul>
+              <li>Currently pursuing 2nd year B.Tech in CSE at VITB</li>
+              <li>CGPA: [9.5]</li>
+            </ul>
+          </section>
+          <section id="projects">
+            <h2><u>Projects</u></h2>
+            <ul>
+              <li>NO PROJECTS DONE AT..</li>
+            </ul>
+          </section>
+          <section id="Hobbies">
+            <h2><u>Hobbies</u></h2>
+            <ul>
+              <li>Playing Chess</li>
+              <li>Learning new programming languages</li>
+            </ul>
+          </section>
+          <h2><u>Get in touch with me:</u></h2>
+          <ul>
+            <li>
+              <a href="mailto:example@mail.com"
+                >vasu_dev_manikata_sainadth@email.com</a
+              >
+            </li>
+            <li><a href="tel:0000000000000">86390628458</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; sai nadth. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
