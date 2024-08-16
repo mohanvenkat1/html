@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mohan Venkat | B.Tech Student</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightskyblue;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      display: ruby;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #f7f7f7;
+      justify-content: center;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>Mohan Venkat</h1>
+        <img
+          src="https://cdn.glitch.global/6038fe80-9802-4ad1-8821-220f3c675cf5/WhatsApp%20Image%202024-05-24%20at%2020.35.46_3ae20416.jpg?v=1719937360065"
+          alt="Mohan Venkat"
+          class="profile-pic"
+        />Hello! I'm Mohan Venkat, a 2nd-year B.Tech student at VITB,
+        Bhimavaram.
+        <p>
+          I'm currently in my second year of BTech studies, eagerly pursuing my
+          goal of becoming an entrepreneur. and I am dedicated to cultivating
+          the skills and knowledge necessary to succeed in the business world.
+          With a deep interest in innovation and a passion for problem-solving,
+          I am actively exploring various avenues to turn my entrepreneurial
+          aspirations into a concrete reality. As I continue my academic
+          journey, I am committed to learning and growing, building a foundation
+          that will support my future endeavors in entrepreneurship.
+        </p>
+      </section>
+      <section id="education">
+        <h2 style="font-size: 200%"><u>Education</u></h2>
+        <ul>
+          <li>
+            <h3>B.Tech in [CSE]</h3>
+            <p>VITB, Bhimavaram</p>
+          </li>
+          <li>
+            <h3>Higher Secondary Education[INTERMEDIATE]</h3>
+            <p>SASI JUNIOUR COLLEGE, Tadepalligudem</p>
+          </li>
+
+          <li>
+            <h3>Higher Secondary Education</h3>
+            <p>SRI RAMA VIDHANIKETHAN, Pedatadepalli</p>
+          </li>
+        </ul>
+      </section>
+      <section id="hobbies">
+        <h2><u>Hobbies</u></h2>
+        <ul>
+          <li>Reading</li>
+          <li>Playing Cricket</li>
+          <li>Listening to Music</li>
+          <li>Coding</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2><u>Get in Touch</u></h2>
+        <p>
+          Email:
+          <a
+            href="https://www.bing.com/ck/a?!&&p=001dffa62182abafJmltdHM9MTcxOTg3ODQwMCZpZ3VpZD0wN2Y3YmIyMi01MGQ0LTZlOWEtMzk0YS1hZmE2NTFiMDZmOWEmaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=07f7bb22-50d4-6e9a-394a-afa651b06f9a&psq=gmail.com+login&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbA&ntb=1"
+            >mohanvenkat@email.com</a
+          ><br />
+          Phone: +91 9030******<br />
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/mohan-venkat-087961298/"
+            >Mohan Venkat</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Mohan Venkat personal website</p>
+    </footer>
+  </body>
+</html>
