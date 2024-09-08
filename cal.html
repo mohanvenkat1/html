@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.calculator-container {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #eee;
+}
+
+.key:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.jumping-key {
+    animation: jump 0.5s ease-in-out;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+</style>
+<script>
+   /* const calculator = document.querySelector('.calculator');
+const display = document.querySelector('#result');
+const keys = document.querySelectorAll('.key');
+**/
+let currentOperation = '';
+let previousOperation = '';
+
+keys.forEach((key) => {
+    key.addEventListener('click', (e) => {
+        const keyValue = e.target.textContent;
+        switch (keyValue) {
+            case 'C':
+                currentOperation = '';
+                display.value = '';
+                break;
+            case '←':
+                currentOperation = currentOperation.slice(0, -1);
+                display.value = currentOperation;
+                break;
+            case '=':
+                try {
+                    const result = eval(currentOperation);
+                    display.value = result;
+                    currentOperation = result;
+                } catch (error) {
+                    display.value = 'Error';
+                }
+                break;
+            default:
+                currentOperation += keyValue;
+                display.value
+</script>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="result" readonly>
+            </div>
+            <div class="keys">
+                <button class="key" id="clear">C</button>
+                <button class="key" id="backspace">←</button>
+                <button class="key" id="divide">÷</button>
+                <button class="key" id="multiply">×</button>
+                <button class="key" id="subtract">-</button>
+                <button class="key" id="add">+</button>
+                <button class="key" id="equals">=</button>
+                <button class="key" id="zero">0</button>
+                <button class="key" id="one">1</button>
+                <button class="key" id="two">2</button>
+                <button class="key" id="three">3</button>
+                <button class="key" id="four">4</button>
+                <button class="key" id="five">5</button>
+                <button class="key" id="six">6</button>
+                <button class="key" id="seven">7</button>
+                <button class="key" id="eight">8</button>
+                <button class="key" id="nine">9</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
